@@ -1,0 +1,22 @@
+curl -X POST \
+  http://localhost:8080/v1/bfs/booking \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 7c086295-9eb8-fdfa-819d-c7d39c7f286a' \
+  -d '{
+	"first_name":"Alon",
+	"last_name":"Musk",
+	"dob":"1970-08-09",
+	"checkin":"500",
+	"checkout":300,
+	"totalprice":"1000",
+	"deposit":"4000",
+	"address":{
+		"line1":"Arizona",
+		"line2":"New York",
+		"city":"New Jersy",
+		"state":"Phonix",
+		"country":"USA",
+		"zipcode":12345
+	}
+}'

@@ -1,0 +1,4 @@
+curl -X GET \
+  http://localhost:8080/v1/bfs/bookings \
+  -H 'cache-control: no-cache' \
+  -H 'postman-token: acd70a77-1b75-b20a-f125-06e2933a24f3'
