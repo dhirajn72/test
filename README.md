@@ -39,7 +39,7 @@
     
     mvn spring-boot:run
 
-5) Two sample curl has been added in the repository under directory: bookingservApi/src/main/resources
+5) Two sample curl has been added in the repository under directory: bookingserv-master/bookingservApi/src/main/resources/
 
 6) Use postman or curl to run those request payloads.
 7) Validate the changes
